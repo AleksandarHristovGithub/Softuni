@@ -34,6 +34,12 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Programming Basics With C Sharp\04. Rectangle Area.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Programming Basics With C Sharp\First Steps In Coding\01. Hello SoftUni.cs" />
+    <Compile Include="Programming Basics With C Sharp\First Steps In Coding\02. Expression.cs" />
+    <Compile Include="Programming Basics With C Sharp\First Steps In Coding\Nums 1-10.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
