@@ -14,7 +14,7 @@ namespace Salary
         {
             double tabs = double.Parse(Console.ReadLine());
             double salary = double.Parse(Console.ReadLine());
-            for (int i = 1; i <= tabs; i++)
+            for (int loop = 1; loop <= tabs; loop++)
             {
                 string website = Console.ReadLine();
                 if (website == "Facebook")
@@ -38,7 +38,7 @@ namespace Salary
 
 
                 }
-                if (i == tabs)
+                if (loop == tabs)
                 {
                     Console.WriteLine(salary);
                     break;
