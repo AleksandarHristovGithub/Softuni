@@ -1,6 +1,6 @@
 ![ProgrammingBasicsCourseLogo](https://softuni.bg/Files/Courses/pb-site-pic.png)                                    
-                                           
-                                           
+![ProgrammingBasicsCertificate](https://softuni.bg/certificates/certificates/converttoimage/77117?code=b8844e97)                                          
+                                         
                                            
                                            
                                            
