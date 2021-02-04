@@ -38,7 +38,7 @@ namespace ShoppingList
                 {
                     if (shoppingList.Contains(item))
                     {
-                        shoppingList.RemoveAll(p => p == item);
+                        shoppingList.Remove(item);
                     }
                     else
                     {
@@ -57,8 +57,6 @@ namespace ShoppingList
 
                     }
                 }
-
-
                 if (subCommand == "Correct")
                 {
 
@@ -66,8 +64,9 @@ namespace ShoppingList
                     string newItem = tokens[2];
                     if (shoppingList.Contains(oldItem))
                     {
-
-                        shoppingList[shoppingList.FindIndex(ind => ind.Equals(oldItem))] = newItem;
+                        int index = shoppingList.IndexOf(oldItem);
+                        shoppingList.RemoveAt(index);
+                        shoppingList.Insert(index, newItem);
                     }
                     else
                     {
@@ -80,3 +79,4 @@ namespace ShoppingList
         }
     }
 }
+
