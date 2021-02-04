@@ -8,23 +8,26 @@ namespace NationalCourth
     {
         static void Main(string[] args)
         {
-            int firstEmployee = int.Parse(Console.ReadLine());
+            int firstEmpolyee = int.Parse(Console.ReadLine());
             int secondEmployee = int.Parse(Console.ReadLine());
             int thirdEmployee = int.Parse(Console.ReadLine());
-            int peopleCount = int.Parse(Console.ReadLine());
+            int totalPeople = int.Parse(Console.ReadLine());
 
-            int peoplePerHour = firstEmployee + secondEmployee + thirdEmployee;
-            int hours = 0;
-            while (peopleCount > 0)
+            int totalHours = 0;
+
+            int totalEmployeeHours = firstEmpolyee + secondEmployee + thirdEmployee;
+
+
+            while (totalPeople > 0)
             {
-                hours++;
-                if (hours % 4 == 0)
+                totalHours++;
+                totalPeople -= totalEmployeeHours;
+                if (totalHours % 4 == 0)
                 {
-                    continue;
+                    totalHours++;
                 }
-                peopleCount -= peoplePerHour;
             }
-            Console.WriteLine($"Time needed: {hours}h.");
+            Console.WriteLine($"Time needed: {totalHours}h.");
         }
     }
 }
