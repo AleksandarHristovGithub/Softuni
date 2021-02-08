@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace _02.Snake
+namespace Selling
 {
     public class StartUp
     {
