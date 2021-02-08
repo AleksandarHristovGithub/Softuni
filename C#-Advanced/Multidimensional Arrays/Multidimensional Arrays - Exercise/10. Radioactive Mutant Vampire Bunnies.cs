@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace _10._Radioactive_Mutant_Vampire_Bunnies
+namespace RadioactiveMutantVampireBunnies
 {
     using System;
     using System.Linq;
